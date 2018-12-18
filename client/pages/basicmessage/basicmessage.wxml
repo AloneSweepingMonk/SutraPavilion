@@ -1,0 +1,74 @@
+<view class='current'>
+ <view class="bankNodeData" id='{{banknode}}' data-bankCode='{{bankcode}}' bindtap="toNodeDetail">
+   
+    <view class="message">
+      <view class='block'>
+        <view class="basic bold">
+          <text class="zhouqiText">姓名:王先生</text>
+        </view>
+      </view>
+      <view class='block'>
+        <view class="basic bold">
+          <text class="zhouqiText">工号:687686876876</text>
+        </view>
+      </view>
+       <view class="block1">
+      <view class="zhouqiText" ><text>考核周期:2018-1-1~2018-3-1</text></view> 
+    </view>  
+       <view class='block'>
+        <view class="basic bold">
+          <text class="zhouqiText">当前职级:见习经理</text>
+        </view>
+      </view>
+
+       <view class='block'>
+        <view class="basic bold">
+          <text class="zhouqiText">下一职级：客户经理</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view>
+
+</view>
+ <view class='shengjiText'>
+  <text>维持考核</text>
+</view> 
+<view class="scroll-view_H">
+<scroll-view  scroll-x="true" scroll-with-animation style="width: 100%; height: 360rpx" bindscroll="scroll">
+ <!-- <view> -->
+ <!-- <block >  -->
+  <view  class="container" wx:for="{{shengjiArray}}"  wx:for-item="item"> 
+<view>
+ <canvas style='width:280rpx;height:360rpx' canvas-id="{{item.bankName}}"> 
+     <!-- <view class="num"> 
+     <view ><text>{{item.bankName}}</text></view> 
+     <view class='num1' style='color:{{item.color}};'><text>{{item.data}}%</text></view> 
+     </view>     -->
+  </canvas>  
+</view>
+ </view> 
+
+
+ <!-- </block>  -->
+  <!-- </view>  -->
+ </scroll-view> 
+ </view>
+
+ <view class='shengjiText'>
+  <text>晋升考核</text>
+</view>
+<view class="scroll-view_H">
+<scroll-view  scroll-x="true" scroll-with-animation style="width: 100%; height: 360rpx" bindscroll="scroll">
+<view  class="container" wx:for="{{shengjiArray1}}"  wx:for-item="item"> 
+<view>
+ <canvas style='width:280rpx;height:360rpx' canvas-id="{{item.data}}"> 
+  </canvas>   
+</view>
+ </view> 
+ </scroll-view> 
+ </view>
+
+
+ 

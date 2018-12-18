@@ -1,0 +1,38 @@
+<view class="container" style="width: {{width}}px; height: {{height}}px">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view>
+    <text>\n\n\n\n</text>
+  </view>
+
+  <!--控制代理人编码的显示与隐藏-->
+  <view class="{{showView?'show':'hide'}}">
+
+    <view class='line'></view>
+
+    <view>
+      <text>\n\n</text>
+    </view>
+
+    <!--代理人编码输入框-->
+    <view class='inputArrow'>
+      <view class="userImageArrow">
+        <image class="nameImage" src="../../image/username.png"></image>
+      </view>
+      <label class='agentLab'>代理人编码</label>
+      <input class='inputText' placeholder='请输入代理人编码' bindinput='phoneInput'></input>
+    </view>
+
+    <!--绑定按钮-->
+    <view class='bindingcodeBtnView'>
+      <button class='bindingcodeBtn' type='primary' size='{{primarySize}}' loading='{{loading}}' plain='{{plain}}' disabled='{{disabled}}' bindtap='bindingcode'>绑定</button>
+    </view>
+
+  </view>
+</view>

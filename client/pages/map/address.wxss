@@ -1,0 +1,41 @@
+.big{
+  width:747rpx;
+  height:600rpx;
+  border-top: 1rpx solid black;
+   border-bottom: 1rpx solid black;
+   /* background-color:#1F1B1B;  */
+   border-left: 1rpx solid black;
+   border-right: 1rpx solid black;
+}
+
+.container{
+  width: 750rpx;
+  height:249rpx;
+   /* background-color:#1F1B1B;   */
+}
+.guage{
+  width:247rpx;
+  height:270rpx;
+  float:left;
+
+   border-top:1rpx solid black;
+  border-bottom: 1rpx solid black;
+  border-right: 1rpx solid black;
+  border-left: 1rpx solid black; 
+}
+
+.wx{
+  font-size: 28rpx;
+  width:747rpx;
+  height:600rpx;
+  border: 1rpx solid black; 
+  border-top: none;
+  
+}
+
+.title{
+  padding-top: 20rpx;
+  height: 40rpx;
+  text-align: center;
+  font-size: 28rpx;
+}

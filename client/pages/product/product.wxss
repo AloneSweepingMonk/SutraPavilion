@@ -1,0 +1,184 @@
+.page{
+  height: 100%;
+  width: 100%;
+}
+ .container{
+  width: 740rpx;
+  height:600rpx;
+ margin-left: 10rpx; 
+  display: inline-block;
+  overflow: hidden;
+    white-space: nowrap; 
+  z-index: 1;
+} 
+
+/* */
+.canv{ 
+  z-index: -999;
+}
+.cover{
+ z-index: 999; 
+  height: 600rpx;
+ margin-top: -600rpx; 
+}
+
+.cover1{
+ z-index: 1001; 
+  height: 600rpx;
+ margin-top: -600rpx; 
+}
+
+.cover2{
+ z-index: 1003; 
+  height: 1800rpx;
+ margin-top: -600rpx; 
+}
+
+ec-canvas {
+  width: 100%;
+  height: 100%; 
+}
+
+.current{
+  padding-top:0rpx;
+  float: left;
+  width: 750rpx;
+  height:260rpx;
+ border-top: 1px solid #999999; 
+  border-bottom: 2px solid #999999;
+}
+.left{
+  float: left;
+  width: 19%;
+  border: 2rpx solid #555555;
+  /* width: 150rpx; */
+  height: 150rpx;
+  text-align: center;
+}
+.text{
+  padding-top:40rpx;
+  height: 50rpx;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight:bold;
+}
+
+/* .num{
+  float: left;
+  width: 29.7%;
+  border: 1rpx solid #555555;
+  width: 150rpx;
+  height: 150rpx;
+  text-align: center;
+} */
+
+.text1{
+   padding-top:25rpx;  
+  height: 50rpx;
+  text-align: center;
+  font-size: 30rpx;
+   border-top: 1rpx solid #555555;
+}
+.text2{
+   padding-top:10rpx;  
+  height: 50rpx;
+  text-align: center;
+  font-size: 30rpx;
+   border-top: 1rpx solid #555555;
+}
+
+.bankNodeData{
+  width: 710rpx;
+  height: 200rpx;
+  margin-left: 20rpx;
+  /* margin-right: 20rpx; */
+  /* margin-top: 40rpx;
+   margin-bottom: 40rpx; */
+   /* margin-top:0rpx; */
+   /* margin-bottom: 0rpx;  */
+}
+
+.node_title{
+  float: left;
+  width: 110rpx;
+  height: 250rpx;
+  padding-top: 100rpx;
+}
+
+.bankName{
+  width: 110rpx;
+  height: 100rpx;
+  line-height: 30rpx;
+  font-size: 30rpx;
+}
+
+.bankNodeName{
+  width: 110rpx;
+  height: 100rpx;
+  line-height: 30rpx;
+  font-size: 30rpx;
+}
+
+.node_data{
+  float: left; 
+  margin-left: 55rpx;
+  margin-top: 30rpx;
+  width: 280rpx;
+  height: 200rpx;
+  /* margin: 9rpx; */
+  border: 1rpx solid #555555;
+}
+
+.title{
+  width: 100%;
+  height: 80rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+
+.data{
+  width: 100%;
+  height: 70rpx;
+  line-height: 30rpx; 
+  text-align: center;
+}
+
+.bigText{
+  font-size: 28rpx;
+}
+
+.litText{
+  /* font-weight:bold; */
+  font-size: 28rpx;
+}
+
+.titText{
+  color: #555555;
+  font-weight: bold;
+}
+.num{
+  width: 100%;
+  height: 50rpx;
+  line-height: 0rpx;
+  text-align: center;
+  /* margin-left: 40rpx; */
+}
+
+.scroll-view_H{
+    height: 360rpx;
+    padding-top: 10rpx;
+    /* border-top: 1px solid #999999;*/
+    border-bottom: 2px solid #999999; 
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+ 
+  /* border-radius: 20rpx !important ; */
+ 
+}
+
+.title{
+  text-align: center;
+  font-size: 28rpx;
+}

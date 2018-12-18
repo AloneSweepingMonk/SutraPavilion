@@ -1,0 +1,91 @@
+.container{
+  background-color: #f2f2f2;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250rpx;
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  font-size: 40rpx;
+  color: #aaa;
+}
+
+.hide{
+ display: none;
+}
+.show{ 
+ display: block;
+ width: 730rpx;
+}
+
+.line {  
+  width: 100%;  
+  height: 1rpx;  
+  background-color: #cccccc;  
+  margin-top: 1px;  
+} 
+
+.inputArrow {  
+  background-color: #ffffff;
+  width: 700rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-left: 15rpx;
+  border-radius: 10rpx;
+}  
+
+.userImageArrow{
+  float: left;
+  width: 100rpx;
+  height: 100rpx;
+} 
+
+.nameImage{ 
+  width: 60rpx;
+  height: 60rpx; 
+  margin-top: 25rpx; 
+  margin-left: 25rpx; 
+}
+
+.agentLab { 
+  float: left;
+  display: block; 
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: #444444;  
+  font-size: 40rpx;  
+}   
+
+.inputText {  
+  float: left; 
+  width: 400rpx;
+  height: 100rpx; 
+  text-align: right;   
+  color: #000000;  
+  font-size: 40rpx；
+}  
+  
+/*按钮*/  
+.bindingcodeBtnView {  
+  width: 100%;  
+  height: 200rpx;
+  padding-top: 100rpx;     
+}  
+  
+.bindingcodeBtn {  
+  width: 80%;   
+}  
+

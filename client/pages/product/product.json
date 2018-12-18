@@ -1,0 +1,6 @@
+{
+  "onReachBottomDistance":1,
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  }
+}

@@ -1,0 +1,50 @@
+<view class='current'>
+ <view class="bankNodeData" id='{{banknode}}' data-bankCode='{{bankcode}}' bindtap="toNodeDetail">
+    <view class="message">
+      <view class='block2'>
+        <view class="basic bold">
+          <text class="titText">团队名称:{{teamName}}</text>
+        </view>
+      </view>
+      <view class='block3'>
+        <view class="basic bold">
+          <text class="titText">团队新增人力:{{teamAddPerson}}</text>
+        </view>
+      </view>
+
+      <view class='block2'>
+        <view class="basic bold">
+          <text class="titText">团队总人力:{{teamTotalPerson}}</text>
+        </view>
+      </view>
+
+      <view class='block3'>
+        <view class="basic bold">
+          <text class="titText">团队脱落人力:{{teamQuitPerson}}</text>
+        </view>
+      </view>
+      <view class='block1'>
+        <view class="basic bold">
+          <text class="titText">团队新增主管人力:{{teamAddManager}}</text>
+        </view>
+      </view>
+
+       <view class='block1'>
+        <view class="basic bold">
+          <text class="titText">团队主管总人力:{{teamManagerTotal}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="container">
+<view class='title'><text>当前人力变化图</text></view>
+<canvas style='width:100%;height:500rpx' canvas-id="column1">
+  </canvas>
+</view>
+<view class="container">
+<view class='title'><text>所辖人力变化图</text></view>
+<canvas style='width:100%;height:500rpx' canvas-id="column2">
+  </canvas>
+</view>
